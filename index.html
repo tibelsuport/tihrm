@@ -1,29 +1,68 @@
- <!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SUPORTE TI BELÉM | ESCALA DE PLANTÃO </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<html>
-	<head>
-		<title>SUPORTE TI BELÉM | PLANTÃO </title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width,initial-scale=1"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="viewport" content="width=device-width,initial-scale=1"/>
-		<link rel="stylesheet" href="assets/css/main.css" />
-		
-	
- 
-</style>
-				
-	</head>
-	<body class="is-preload">
-	
-	<div class=”container”>
-        <div class="one-third column">
-        </div>
-            <div class="one-third column">
-            </div>
-                <div class="one-third column">
-                </div>
-    </div>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header, .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+        }
+
+        .header nav ul li {
+            margin-left: 20px;
+        }
+
+        .header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .content {
+            padding: 20px;
+            margin: 10px 0;
+        }
+
+        @media (max-width: 768px) {
+            .header nav ul {
+                flex-direction: column;
+                margin: 0;
+            }
+
+            .header nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+  </div>
 
 
 		<!-- Header -->
